@@ -53,7 +53,7 @@ def all_holidays_with_bbq(holiday_hash)
     holiday_hash.map do |holiday_name, supplies|
       supplies.include?("BBQ") ? holiday_name : nil 
     
-   # binding.pry 
+   binding.pry 
   end 
  end.flatten.compact  #compact takes out the nil values, #flatten is removing the nested hashes 
 end
