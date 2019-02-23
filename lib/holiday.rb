@@ -17,7 +17,6 @@ end
 
 #4
 def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
-  #hash[new_key] = value 
   holiday_hash[season][holiday_name] = supply_array
   
   holiday_hash
