@@ -38,8 +38,8 @@ end
 def all_supplies_in_holidays(holiday_hash)
   holiday_hash.each do |seaon, holiday|
   puts "#{season.captalize}:"
-  
-end
+  end
+end 
 
 #7
 def all_holidays_with_bbq(holiday_hash)
