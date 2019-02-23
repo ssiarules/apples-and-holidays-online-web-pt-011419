@@ -23,34 +23,6 @@ def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_arr
 end 
   
  
-# etc.
-
-# #holiday_supplies = {
-#:winter # winter is one key of the first layer  =>  {    # the has it points to is the first value
-#     :christmas => ["Lights", "Wreath"] 
-#     :new_years => ["Party Hats"]
-#   },
-#   :summer => {
-#     :fourth_of_july => ["Fireworks", "BBQ"]
-#   },
-#   :fall => {
-#     :thanksgiving => ["Turkey"]
-#   },
-#   :spring => {
-#     :memorial_day => ["BBQ"]
-#   }
-# }
-
-#holiday_supplies.each do |season_name, season_hash|
-  #season_name will start as :winter, then :summer, etc. 
-  #season_hash will start as: 
-  # }
-  #  :christmas => ["Lights", "Wreath"], 
-  #   :new_years => ["Party Hats"]
-  # },
-#end 
-
-#You will need to use conditionals to check if the season is the same as the argument, and then add the holiday_name and supply_array #to the associated hash
 #5
 def all_winter_holiday_supplies(holiday_hash)
   #binding.pry 
@@ -113,6 +85,38 @@ end
 #3
   # again, holiday_hash is the same as the ones above
   # add the second argument to the memorial day array
+  
+#4
+#hash[new_key] = value 
+
+# etc.
+
+# #holiday_supplies = {
+#:winter # winter is one key of the first layer  =>  {    # the has it points to is the first value
+#     :christmas => ["Lights", "Wreath"] 
+#     :new_years => ["Party Hats"]
+#   },
+#   :summer => {
+#     :fourth_of_july => ["Fireworks", "BBQ"]
+#   },
+#   :fall => {
+#     :thanksgiving => ["Turkey"]
+#   },
+#   :spring => {
+#     :memorial_day => ["BBQ"]
+#   }
+# }
+
+#holiday_supplies.each do |season_name, season_hash|
+  #season_name will start as :winter, then :summer, etc. 
+  #season_hash will start as: 
+  # }
+  #  :christmas => ["Lights", "Wreath"], 
+  #   :new_years => ["Party Hats"]
+  # },
+#end 
+
+#You will need to use conditionals to check if the season is the same as the argument, and then add the holiday_name and supply_array #to the associated hash
   
 
 
