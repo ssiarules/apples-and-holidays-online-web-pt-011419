@@ -55,7 +55,7 @@ def all_holidays_with_bbq(holiday_hash)
     
    # binding.pry 
   end 
- end.flatten
+ end.flatten.compact  #compact takes out the nil values, #flatten is removing the nested hashes 
 end
 
 
